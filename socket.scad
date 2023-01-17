@@ -2,11 +2,12 @@ include <coupler.scad>
 
 distance_wall=1;
 recess=1;
-screwhole_diameter=2;
-screw_recess=2;
-screw_recess_diameter=3;
+screwhole_diameter=3;
+screw_recess=3;
+screw_recess_diameter=6;
 
 socket_diameter=40;
+// $fn=16;
 
 socket_height=distance_to_wall+magnet_height+distance_wall+recess;
 module socket_body() {
@@ -22,9 +23,9 @@ module socket_body() {
     }
 }
 
-module screw_holes() {
+module screw_holes(diameter=0,screw_recess=0) {
     for (i=[0:2]) {
-        rotate([0,0,60+i*120]) translate([12,0,0]) cylinder(h=100,r=screwhole_diameter/2);
+        rotate([0,0,60+i*120]) translate([12,0,0]) cylinder(h=100,r=diameter/2);
         rotate([0,0,60+i*120]) translate([12,0,socket_height-screw_recess]) cylinder(h=10,r=screw_recess_diameter/2);
     }
 }
@@ -32,8 +33,9 @@ module screw_holes() {
 module socket() {
     difference() {
         socket_body();
-        screw_holes();
+        screw_holes(screwhole_diameter,screw_recess);
+        filament_throughhole();
     }
 }
 
-// socket();
+socket();

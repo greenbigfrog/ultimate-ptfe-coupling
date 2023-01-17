@@ -12,3 +12,4 @@ module lid() {
         cylinder(h=socket_height,r=socket_diameter/2-3);
     }
 }
+lid();

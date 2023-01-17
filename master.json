@@ -1,0 +1,25 @@
+{
+    "fileFormatVersion": "1",
+    "parameterSets": {
+        "New set 1": {
+            "render_counterpiece": "false",
+            "render_coupler": "false",
+            "render_lid": "true",
+            "render_socket": "false"
+        },
+        "New set 2": {
+            "$fn": "128",
+            "render_counterpiece": "false",
+            "render_coupler": "false",
+            "render_lid": "true",
+            "render_socket": "false"
+        },
+        "New set 3": {
+            "$fn": "128",
+            "render_counterpiece": "false",
+            "render_coupler": "false",
+            "render_lid": "true",
+            "render_socket": "false"
+        }
+    }
+}
