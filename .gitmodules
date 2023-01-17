@@ -1,0 +1,6 @@
+[submodule "Chamfers-for-OpenSCAD"]
+	path = Chamfers-for-OpenSCAD
+	url = git@github.com:SebiTimeWaster/Chamfers-for-OpenSCAD.git
+[submodule "threads-scad"]
+	path = threads-scad
+	url = git@github.com:rcolyer/threads-scad.git
