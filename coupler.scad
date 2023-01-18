@@ -4,7 +4,7 @@ use <threads-scad/threads.scad>
 magnet_diameter=6.2;
 magnet_height=3.5;
 distance_to_wall=0.5;
-// $fn=128;
+
 // max_magnet_height=5; simply scale height, till they fit inside
 // design is currently built to fit max diameter of 8mm magnets
 max_magnet_diameter=8;
@@ -79,4 +79,5 @@ module coupler(magnets=true) {
     }
 }
 
+//$fn=128;
 //coupler();

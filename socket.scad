@@ -8,12 +8,11 @@ screw_recess_diameter=6;
 socket_seating_tolerance=1.02;
 
 socket_diameter=40;
-// $fn=16;
 
 module reducer() {
     for (i=[0:2]) {
         hull() {
-            strength=15;
+            strength=16;
             rotate([0,0,i*120]) cylinder(h=100,r=strength/2);
             rotate([0,0,i*120]) translate([socket_diameter,0,0]) cylinder(h=100,r=strength/2);
         }
@@ -51,4 +50,5 @@ module socket() {
     }
 }
 
+//$fn=128;
 //socket();

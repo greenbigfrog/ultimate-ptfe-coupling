@@ -15,5 +15,6 @@ module counterpiece() {
         filament_throughhole();
     }
 }
-//$fn=128;
+
+$fn=128;
 counterpiece();
