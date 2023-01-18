@@ -9,7 +9,7 @@ module lid() {
     difference() {
         chamferCylinder(h=lid_height,r=lid_diameter/2, ch=0.5,ch2=1);
         socket();
-        cylinder(h=socket_height,r=socket_diameter/2-3);
+        #cylinder(h=socket_height,r=socket_diameter/2-3);
     }
 }
 lid();
