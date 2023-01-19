@@ -3,7 +3,8 @@ This isn't in quite a perfect usable enduser state, but everything should be rat
 
 
 Inspiration taken from:
-The general concept: https://www.printables.com/model/32368-join-ptfe-tubes-together-magnetically
-The idea of having a socket on the drybox: https://www.printables.com/model/78169-magnetic-pfte-coupler-dockterminator and https://www.printables.com/model/85278-drybox-sockets-for-magnetically-coupled-ptfe-tubes
+- The general concept: https://www.printables.com/model/32368-join-ptfe-tubes-together-magnetically
+- The idea of having a socket on the drybox: https://www.printables.com/model/78169-magnetic-pfte-coupler-dockterminator and https://www.printables.com/model/85278-drybox-sockets-for-magnetically-coupled-ptfe-tubes
+
 
 I recommend pairing this with https://www.printables.com/model/109402-drybox-filament-guide-using-ptfe-tube
