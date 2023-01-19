@@ -7,10 +7,7 @@ counter_piece_thickness=2;
 
 module counterpiece() {
     difference() {
-        intersection() {
-            chamferCylinder(h=counter_piece_thickness, r=socket_diameter/2-3, ch=0,ch2=1);
-            reducer();
-        }
+        socket_body(height=counter_piece_thickness);
         screw_holes(diameter=screw_hole_counterpiece);
         filament_throughhole();
     }
