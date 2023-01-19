@@ -2,10 +2,10 @@ include <coupler.scad>
 
 distance_wall=1;
 recess=1;
-screwhole_diameter=3;
-screw_recess=3;
+screwhole_diameter=3.1;
+screw_recess=2.9;
 screw_recess_diameter=6;
-socket_seating_tolerance=1.02;
+socket_seating_tolerance=1.03;
 
 socket_diameter=40;
 
@@ -50,5 +50,5 @@ module socket() {
     }
 }
 
-//$fn=128;
-//socket();
+$fn=128;
+socket();
